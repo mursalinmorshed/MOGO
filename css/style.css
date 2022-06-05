@@ -1,0 +1,604 @@
+/*========Common css Strat=======*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ol,ul{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+    margin-bottom: 0;
+}
+/*========Common css End=======*/
+/*========Preloader css Start=======*/
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    z-index: 99999;
+}
+#loader {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #9370DB;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+#loader:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #BA55D3;
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+}
+#loader:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #FF00FF;
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+@-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+/*========Preloader css End=======*/
+/*========Navber part css Strat=======*/
+#navbar{
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+.navbar-expand-lg .navbar-nav .nav-item{
+    padding-right: 27px;
+    padding-left: 27px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0; 
+    padding-left: 0;
+}
+.navbar .navbar-nav .nav-item:last-child{
+    padding-right: 0;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    position: relative;
+    transition: all linear 0.3s;
+}
+.navbar-expand-lg .navbar-nav .nav-link::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #fce38a;
+    transition: all linear 0.3s;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover,
+.navbar-expand-lg .navbar-nav .nav-link:hover::after{
+    color: #fce38a;
+    width: 100%;
+}
+
+
+/*========Navber part css End=======*/
+/*========Banner css Strat=======*/
+#banner{
+    position: relative;
+}
+.ban-item {
+    position: relative;
+}
+
+.ban-item img {
+    width: 100% !important;
+    height: 100%  !important;
+}
+
+.ban-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
+}
+
+.banner-content h2 {
+    color: #fff;
+    font-size: 72px;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+.banner-content h1 {
+    color: #fff;
+    font-size: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 140px;
+    position: relative;
+}
+
+.banner-content h1::after {
+    content: '';
+    position: absolute;
+    bottom: -45px;
+    left: 50%;
+    background-color: #fff;
+    width: 60px;
+    height: 3px;
+    transform: translateX(-50%);
+}
+.banner-content button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    background: none;
+    border: 3px solid #fff;
+    padding: 10px 30px;
+    margin-top: 75px;
+    transition: all linear .3s;
+}
+/*========Banner css End=======*/
+/*========About css Strat=======*/
+#about{
+    padding-top: 92px;
+    padding-bottom: 110px;
+}
+.header-wrapper{
+    margin-bottom: 100px;
+}
+.header h4{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 23px;
+}
+.header h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #333333;
+    text-transform: uppercase;
+    position: relative;
+}
+.header h3::after{
+    position: absolute;
+    content: '';
+    bottom: -40px;
+    left: 50%;
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+    transform: translateX(-50%);
+}
+.content p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    line-height: 24px;
+    padding: 0 48px;
+    margin-top: 90px;
+}
+.overlay{
+    background:  linear-gradient( to top,rgba(252, 227, 138, 0.9),rgba(243, 129, 129, 0.9)) ;
+    opacity: 0;
+    transition: all linear .3s;
+    height: 0%;
+}
+.team:hover .overlay{
+    opacity: 1;
+    height: 100%;
+}
+.team{
+    margin: 0 12px;
+}
+.team-icon i{
+    font-size: 23px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.team-icon h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+/*========About css End=======*/
+/*========Counter Up css Strat=======*/
+#counter{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #95e1d3;
+}
+.counter-up h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    color: #ffffff;
+    margin-bottom: 30px
+}
+.counter-up p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+/*========Counter Up css End=======*/
+/*========Services css Strat=======*/
+#service{
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+.service-icon i{
+    font-size: 31px;
+    color: #95e1d3;
+}
+.service-content{
+    margin-left: 30px;
+}
+.service-content h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #333333;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.service-content p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    line-height: 24px;
+    padding-right: 60px;
+    text-align: left;
+}
+.sceond-serv-row{
+    margin-top: 100px;
+}
+/*========Services css End=======*/
+/*========Comment-slider css Strat=======*/
+#slider-comment{
+    background-color: #f8f8f8;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.comment-icon i{
+    font-size: 61px;
+    color: #95e1d3;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #95e1d3;
+    text-align: center;
+    line-height: 150px
+}
+.left-slider-icon i,
+.right-slider-icon i{
+    font-size: 22px;
+    color: #cccccc;
+}
+.comment-content{
+    margin-left: 3px;
+}
+.comment-content p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 300;
+    color: #999999;
+    line-height: 36px;
+    padding: 0 38px;
+    margin-bottom: 23px;
+}
+.inner-comment span{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #333333;
+    padding: 0 38px;
+    margin-left: 75px;
+    text-transform: capitalize;
+    position: relative;
+}
+.inner-comment span::after{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    transform: translateX(-50%);
+}
+/*========Comment-slider css End=======*/
+/*========Team css Strat=======*/
+#team{
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+.team-content h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.team-content p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;
+    color: #999999;
+}
+.team-overlay{
+    background: linear-gradient( to top,rgba(252, 227, 138, 0.9),rgba(243, 129, 129, 0.9));
+    opacity: 0;
+    height: 0%;
+    transition: all linear 0.3s;
+}
+.team-overlay a i{
+    width: 55px;
+    height: 55px;
+    background-color: #fce38a;
+    color: #f38181;
+    font-size: 26px;
+    text-align: center;
+    line-height: 55px;
+    border-right: 1px solid #f9bd87;
+    transition: all linear .3s;
+}
+.team-overlay a:last-child i{
+    border-right: 0;
+}
+.team-overlay a i:hover{
+    background-color: #f38181;
+    color: #fff;
+}
+.team-item{
+    margin: 0 12px;
+}
+.team-item:hover .team-overlay{
+    opacity: 1;
+    height: 100%;
+}
+.team-wrapper .slick-list{
+        padding: 40px 0 !important;
+}
+.main-team.slick-center{
+    transform: scale(1.07);
+    transition: all linear .3s;
+}
+/*========Team css End=======*/
+/*========Gallry css Strat=======*/
+.gal-overlay{
+    background: linear-gradient( to top,rgba(252, 227, 138, 0.9),rgba(243, 129, 129, 0.9));
+    opacity: 0;
+    height: 0%;
+    transition: all linear 0.3s;
+}
+.gallry-img:hover .gal-overlay{
+    opacity: 1;
+    height: 100%;
+}
+.overlay-content i{
+    font-size: 30px;
+    color: #fff;
+}
+.overlay-content h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 17px;
+}
+.overlay-content p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;
+    color: #fff;
+}
+/*========Gallry css End=======*/
+/*========Footer css Strat=======*/
+.footer-content p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    line-height: 24px;
+    padding-right: 65px;
+}
+.footer-follow p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    position: relative;
+    padding-bottom: 18px;
+}
+.footer-follow p::after{
+    position: absolute;
+    content: '';
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #e5e5e5;
+}
+.footer-follow p span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #333333;
+}
+.follow-us span {
+    margin-right: 23px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+    color: #999999;
+
+}
+.follow-us a i{
+    margin-right: 15px;
+    margin-top: 15px;
+    color: #95e1d3;
+}
+.subscribe{
+    position: relative;
+    margin-top: 38px;
+}
+.subscribe .form-filed input{
+    padding: 15px 13px;
+    width: 73%;
+    outline: none;
+    border: 1px solid #e7e7e7;
+   
+}
+.subscribe button {
+    background-color: #95e1d3;
+    border: none;
+    padding: 16px 35px;
+    position: absolute;
+    top: 0;
+    right: 120px;
+}
+.f-header h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+.blog-content h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #333333;
+    text-transform: uppercase;
+    line-height: 18px;
+    margin-right: 43px;
+}
+.blog-content p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: #999999;
+    font-style: italic;
+    margin-top: 12px;
+}
+.middle{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.f-gal-img{
+    border: 1px solid #fff;
+}
+.f-blog-btm a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: #999999;
+    font-style: italic;
+    margin-top: 20px;
+}
+/*========Footer css End=======*/
+/*========Copy css Strat=======*/
+#copy{
+    
+    padding-bottom: 22px;
+    
+}
+.copy-border{
+    border-top: 1px solid #e5e5e5;
+    padding-top: 25px;
+}
+.copy-paste p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+}
+.copy-paste p span{
+    color: #f38181;
+}
+/*========Copy css End=======*/
+/*========Common css Strat=======*/
+/*========Common css End=======*/
+/*========Common css Strat=======*/
+/*========Common css End=======*/
+/*========Common css Strat=======*/
+/*========Common css End=======*/
+/*========Common css Strat=======*/
+/*========Common css End=======*/
+/*========Common css Strat=======*/
+/*========Common css End=======*/
+/*========Common css Strat=======*/
+/*========Common css End=======*/

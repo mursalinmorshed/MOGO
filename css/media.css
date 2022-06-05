@@ -1,0 +1,676 @@
+/*======== Extra-Learge part strat=========== */
+
+@media (min-width:1200px) and (max-width:1399px) {
+
+    /*======== banner part strat=========== */
+    .banner-content h1 {
+        font-size: 140px;
+        line-height: 130px;
+
+    }
+
+    .banner-content h1::after {
+        bottom: -45px;
+    }
+    .banner-content button {
+        padding: 10px 30px;
+        margin-top: 75px;
+    }
+
+    /*======== banner part end=========== */
+     /*======== Footer part Start============ */
+
+     .subscribe button {
+        right: 48px;
+    }
+    /*======== Footer part End============ */
+}
+
+/*======== Extra-Learge part strat=========== */
+/*======== Learge part strat=========== */
+@media (min-width:992px) and (max-width:1199px) {
+
+    /*======== banner part strat=========== */
+    .banner-content h1 {
+        font-size: 115px;
+        line-height: 100px;
+    }
+
+    .banner-content h1::after {
+        bottom: -25px;
+    }
+
+    .banner-content h2 {
+        font-size: 72px;
+        margin-bottom: 40px;
+    }
+
+    .banner-content button {
+        padding: 10px 30px;
+        margin-top: 50px;
+    }
+
+    /*======== banner part end=========== */
+    /*======== Counter part strat=========== */
+    .counter-up p {
+        line-height: 20px;
+    }
+    /*======== Counter part End============ */
+    /*======== Service part strat=========== */
+
+    .service-content p {
+        padding-right: 0;
+    }
+
+    /*======== Service part End============ */
+    /*======== Footer part Start============ */
+    .blog-content {
+        margin-left: 0px;
+    }
+
+    .blog-content h5 {
+        margin-right: 0px;
+    }
+
+    .middle {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .subscribe button {
+        right: -25px;
+    }
+
+    /*======== Footer part End============ */
+}
+
+/*======== Learge part end=========== */
+
+/*======== Medium part strat=========== */
+@media (min-width:768px) and (max-width:991px) {
+
+    /*====== Navber part Start===== */
+    .navbar {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navbar-brand {
+        transform: scale(1);
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-item {
+        padding-right: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .navbar-nav {
+        background-color: tomato;
+        margin-top: 5px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link::after {
+        display: none;
+    }
+
+    /*====== Navber part End===== */
+    /*======== banner part strat=========== */
+    .banner-content h1 {
+        font-size: 100px;
+        line-height: 90px;
+    }
+
+    .banner-content h2 {
+        font-size: 60px;
+        margin-bottom: 25px;
+    }
+
+    .banner-content h1::after {
+        display: none;
+    }
+
+    .banner-content button {
+        padding: 5px 10px;
+        margin-top: 40px;
+    }
+
+    /*======== banner part end=========== */
+    /*======== About part strat=========== */
+    #about {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .header-wrapper {
+        margin-bottom: 60px;
+    }
+
+    .header h4 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .header h3 {
+        font-size: 30px;
+    }
+
+    .header h3::after {
+        display: none
+    }
+
+    .content p {
+        font-size: 15px;
+        line-height: 21px;
+        padding: 0 25px;
+        margin-top: 45px;
+    }
+
+    /*====== About part End===== */
+    /*======== Counter part strat=========== */
+    .counter-up h4 {
+        font-size: 72px;
+        margin-bottom: 30px;
+    }
+
+    .counter-up p {
+        margin-bottom: 50px;
+    }
+
+    /*======== Counter part End============ */
+    /*======== Service part strat=========== */
+    #service {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .service-icon {
+        margin-top: 0;
+    }
+
+    .service-content {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .service-content h4 {
+        text-align: left;
+    }
+
+    .service-content p {
+        padding-right: 0;
+    }
+
+    .service-gap {
+        margin-top: 30px;
+    }
+
+    .sceond-serv-row {
+        margin-top: 0;
+    }
+
+    /*======== Service part End============ */
+    /*======== Comment part strat=========== */
+    #slider-comment {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .comment-content {
+        margin-left: 60px;
+    }
+
+    .comment-content p {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .inner-comment span {
+        margin-left: 35px;
+    }
+
+    /*======== Comment part End============ */
+    /*======== Team part strat=========== */
+    #team {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .main-team.slick-center {
+        transform: scale(1);
+
+    }
+
+    /*======== Team part End============ */
+    /*======== Footer part Start============ */
+    .blog-content {
+        margin-left: 0px;
+    }
+
+    .blog-content h5 {
+        padding-right: 70px;
+        margin-top: 10px;
+    }
+
+    .subscribe button {
+        right: 187px;
+    }
+
+    /*======== Footer part End============ */
+
+
+}
+
+/*======== Medium part end=========== */
+
+/*========Small part strat=========== */
+@media (min-width:576px) and (max-width:767px) {
+
+    /*====== Navber part Start===== */
+    .navbar {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navbar-brand {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-right: 0;
+        font-size: 0;
+        transform: scale(0.7);
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-item {
+        padding-right: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .navbar-nav {
+        background-color: tomato;
+        margin-top: 5px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link::after {
+        display: none;
+    }
+
+    /*====== Navber part End===== */
+    /*======== banner part strat=========== */
+    .banner-content h1 {
+        font-size: 72px;
+        line-height: 65px;
+    }
+
+    .banner-content h2 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    .banner-content h1::after {
+        display: none;
+    }
+
+    .banner-content button {
+        padding: 5px 10px;
+        margin-top: 10px;
+    }
+
+    /*======== banner part end=========== */
+    /*======== About part strat=========== */
+    #about {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .header-wrapper {
+        margin-bottom: 60px;
+    }
+
+    .header h4 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .header h3 {
+        font-size: 30px;
+    }
+
+    .header h3::after {
+        display: none
+    }
+
+    .content p {
+        font-size: 15px;
+        line-height: 21px;
+        padding: 0 25px;
+        margin-top: 45px;
+    }
+
+    /*====== About part End===== */
+    /*======== Counter part strat=========== */
+    .counter-up h4 {
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+
+    .counter-up p {
+        margin-bottom: 50px;
+    }
+
+    /*======== Counter part End============ */
+    /*======== Service part strat=========== */
+    #service {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .service-icon {
+        margin-top: 0;
+    }
+
+    .service-content {
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .service-content h4 {
+        margin-bottom: 10px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .service-content p {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .service-gap {
+        margin-top: 30px;
+    }
+
+    .sceond-serv-row {
+        margin-top: 0;
+    }
+
+    /*======== Service part End============ */
+    /*======== Comment part strat=========== */
+    #slider-comment {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .comment-icon {
+        text-align: center;
+    }
+
+    .comment-content {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .comment-content p {
+        font-size: 17px;
+    }
+
+    /*======== Comment part End============ */
+    /*======== Team part strat=========== */
+    #team {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .main-team.slick-center {
+        transform: scale(1);
+
+    }
+
+    /*======== Team part End============ */
+    /*======== Footer part Start============ */
+    .blog-content {
+        margin-left: 0px;
+    }
+
+    .blog-content h5 {
+        margin-top: 10px;
+    }
+
+    /*======== Footer part End============ */
+
+}
+
+/*========Small part end=========== */
+/*======== Extra-small part strat=========== */
+@media (max-width:575.99px) {
+
+    /*====== Navber part Start===== */
+    .navbar {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navbar-brand {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-right: 0;
+        font-size: 0;
+        transform: scale(0.7);
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-item {
+        padding-right: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .navbar-nav {
+        background-color: tomato;
+        margin-top: 5px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link::after {
+        display: none;
+    }
+
+    /*====== Navber part End===== */
+    /*======== banner part strat=========== */
+    .banner-content h1 {
+        font-size: 25px;
+        line-height: 0px;
+    }
+
+    .banner-content h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .banner-content h1::after {
+        display: none;
+    }
+
+    .banner-content button {
+        font-size: 13px;
+        padding: 5px 10px;
+        margin-top: 20px;
+    }
+
+    /*======== banner part end=========== */
+    /*======== About part strat=========== */
+    #about {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .header-wrapper {
+        margin-bottom: 60px;
+    }
+
+    .header h4 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .header h3 {
+        font-size: 25px;
+    }
+
+    .header h3::after {
+        display: none
+    }
+
+    .content p {
+        font-size: 15px;
+        line-height: 21px;
+        padding: 0 25px;
+        margin-top: 45px;
+    }
+
+    /*====== About part End===== */
+    /*======== Counter part strat=========== */
+    .counter-up h4 {
+        font-size: 50px;
+        margin-bottom: 16px;
+    }
+
+    .counter-up p {
+        margin-bottom: 50px;
+    }
+
+    /*======== Counter part End============ */
+    /*======== Service part strat=========== */
+    #service {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .service-icon {
+        margin-top: 0;
+    }
+
+    .service-content {
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .service-content h4 {
+        margin-bottom: 10px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .service-content p {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .service-gap {
+        margin-top: 30px;
+    }
+
+    .sceond-serv-row {
+        margin-top: 0;
+    }
+
+    /*======== Service part End============ */
+    /*======== Comment part strat=========== */
+    #slider-comment {
+        padding-top: 0;
+        padding-bottom: 60px;
+    }
+
+    .comment-icon {
+        text-align: center;
+    }
+
+    .comment-content {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .comment-content p {
+        font-size: 17px;
+        padding: 0 20px;
+    }
+
+    /*======== Comment part End============ */
+    /*======== Team part strat=========== */
+    #team {
+        padding-top: 0px;
+        padding-bottom: 60px;
+    }
+
+    .main-team.slick-center {
+        transform: scale(1);
+
+    }
+
+    /*======== Team part End============ */
+    /*======== Footer part strat=========== */
+    .follow-us span {
+        margin-right: 5px;
+        font-size: 14px;
+    }
+
+    .follow-us a i {
+        margin-right: 8px;
+    }
+
+    .subscribe .form-filed input {
+        padding: 15px 13px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .subscribe button {
+        position: unset;
+        width: 100%;
+    }
+
+    .blog-content {
+        margin-left: 0px;
+    }
+
+    .blog-content h5 {
+        margin-top: 10px;
+    }
+
+    /*======== Footer part End============ */
+    /*======== Counter part strat=========== */
+    /*======== Counter part End============ */
+    /*======== Counter part strat=========== */
+    /*======== Counter part End============ */
+    /*======== Counter part strat=========== */
+    /*======== Counter part End============ */
+    /*======== Counter part strat=========== */
+    /*======== Counter part End============ */
+    /*======== Counter part strat=========== */
+    /*======== Counter part End============ */
+    /*======== Counter part strat=========== */
+    /*======== Counter part End============ */
+    /*======== Counter part strat=========== */
+    /*======== Counter part End============ */
+}
+
+@media (min-width:442px) and (max-width: 575.99px) {
+    .service-content p {
+        padding: 0 80px;
+    }
+}
+
+/*======== Extra-small part end=========== */
